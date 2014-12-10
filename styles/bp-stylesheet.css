@@ -1,52 +1,44 @@
 * {
-    margin: 0;
+margin: 0;
 }
-
 div {
-      box-sizing: border-box;
+box-sizing: border-box;
 }
-
 div.row {
-          width: 97.5%;
-          margin: auto;
+width: 97.5%;
+margin: auto;
 }
-
 div.row:after {
-                content: "";
-                display: table;
-                clear: both;
+content: "";
+display: table;
+clear: both;
 }
-
 div[class^='col'] {
-                    float: left;
-                    padding-right: 1rem;
-
+float: left;
+padding-right: 1rem;
 }
-
 div[class^='col']:last-child {
-                              padding-right: 0;
+padding-right: 0;
 }
-
 div.col-1-of-3 {
-                width: 65%;
-                border-right-style: solid;
-                padding: 0px 20px 0px 0px;
+width: 65%;
+border-right-style: solid;
+padding: 0px 20px 0px 0px;
 }
-
 div.col-2-of-3 {
-                width: 35%;
-                padding: 10px;
-                padding: 0px 00px 0px 20px;
+width: 35%;
+padding: 10px;
+padding: 0px 00px 0px 20px;
 }
-
 h2 {
-    font-family: Arial, san-serif;
+font-family: Arial, san-serif;
 }
-
 h3 {
-    font-family: Arial, san-serif;
+font-family: Arial, san-serif;
 }
-
 blockquote.plus {
-    font-family: Arial, san-serif;
+font-family: Arial, san-serif;
+}
+img.class {
+padding: 5px 10px 5px 0px;
 }
