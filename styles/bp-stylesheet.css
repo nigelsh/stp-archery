@@ -41,6 +41,7 @@ div.col-2-of-3 {
 h1 {
     font-family: Oswald;
     font-size: 1.5rem;
+    color: black;
 }
 
 h2 {
@@ -127,4 +128,20 @@ article#scheduleII h1 {
 
 article#scheduleII small {
                           font-size: .75rem;
+}
+
+.offscreen {
+            position: absolute;
+            left: -10000px;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+}
+
+.offscreen:focus {
+                  position: static;
+                  width: auto;
+                  height: auto;
+                  color: black;
 }
