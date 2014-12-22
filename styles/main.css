@@ -2,6 +2,10 @@
 General
 *****************/
 
+.hero, .class {
+    min-width: 100px;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
